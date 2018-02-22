@@ -5,8 +5,6 @@ class MFileAutoBuild extends CI_Controller {
 
 	public function __construct() {
 		parent::__construct();
-		$this->load->helper("Common_Helper", "", false);
-
 	}
 
 	public function index() {
